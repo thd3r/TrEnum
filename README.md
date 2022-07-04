@@ -124,7 +124,7 @@ Usage
 
 License
 ---------------
-Copyright (C) Mauro Soria (thd3rBoy@github.io)
+Copyright (C) Thunder (thd3rBoy@github.io)
 
 License: GNU General Public License, version 2
                                                                                     
