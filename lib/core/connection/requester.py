@@ -59,7 +59,7 @@ class Request:
             pass
 
     def exceptions_requester(self, silent=False):
-        error = f"{bcolors.FAIL}{bcolors.BOLD}Error: {engine_name} probably now is blocking our requests{bcolors.END}"
+        error = f"{bcolors.BOLD}[{bcolors.FAIL}Error{bcolors.END}{bcolors.BOLD}]: {self.engine_name} probably now is blocking our requests{bcolors.END}"
         if not silent:
             print(error)
         else:
