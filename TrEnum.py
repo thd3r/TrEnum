@@ -5,7 +5,6 @@ import argparse
 import os
 import sys
 
-from colorama import Fore
 from urllib.parse import urlparse
 from datetime import datetime
 
