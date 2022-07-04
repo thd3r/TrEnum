@@ -65,7 +65,7 @@ class EnumerateSUbs(multiprocessing.Process):
         waybacks.run()
 
     def SubsEnums(self, domain, filename, silent):
-        engines = [VirustotalEnums, CrtshSearch, Urlscan, ThreatcrowdEnums, Whoisxmlapi]
+        engines = [VirustotalEnums, CrtshSearch, Whoisxmlapi, Urlscan, ThreatcrowdEnums]
         enums = [enum(domain, silent) for enum in engines]
 
         for enum in enums:
