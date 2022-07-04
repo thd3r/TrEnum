@@ -1,0 +1,29 @@
+[
+  {
+    "BASE_URL": "https://github.com/thd3rBoy/TrEnum",
+    "config": {
+      "engines": [
+        {
+          "engine_name": "Threatcrowd",
+          "engine": "https://www.threatcrowd.org/searchApi/v2/domain/report/?domain={domain}"
+        },
+        {
+          "engine_name": "Crtsh",
+          "engine": "https://crt.sh/?q=%25.{domain}&output=json"
+        },
+        {
+          "engine_name": "Urlscan",
+          "engine": "https://urlscan.io/api/v1/search/?q=domain:{domain}"
+        },
+        {
+          "engine_name": "Virustotal",
+          "engine": "https://www.virustotal.com/vtapi/v2/domain/report?domain={domain}&apikey={apikey}"
+        },
+        {
+          "engine_name": "Subdomains whoisxmlapi",
+          "engine": "https://subdomains.whoisxmlapi.com/api/v1?apiKey={apikey}&domainName={domain}&outputFormat=json"
+        }
+      ]
+    }
+  }
+]
