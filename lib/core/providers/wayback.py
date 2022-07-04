@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import multiprocessing
 import threading
 import json
 import sys
@@ -33,17 +32,13 @@ class BaseEnumerateUrls:
         if response:
             out = json.loads(response)
 
-            if "[]" in response:
-                print("\033[91m\033[\033[1mError: Domain not found, Please double check your target domain\033[0m")
-                sys.exit(1)
-            else:
-                for i in range(len(out)):
-                    for url in out[i]:
-                        if 'original' in url:
-                            url = url.replace("original", "")
+            for i in range(len(out)):
+                for url in out[i]:
+                    if 'original' in url:
+                        url = url.replace("original", "")
                         
-                        else:
-                            self.urls.append(url)
+                    else:
+                        self.urls.append(url)
 
     def VirustotalEnums(self):
         base_url = "https://www.virustotal.com/vtapi/v2/domain/report?domain={domain}&apikey={apikey}"
