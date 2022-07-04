@@ -32,13 +32,16 @@ class BaseEnumerateUrls:
         if response:
             out = json.loads(response)
 
-            for i in range(len(out)):
-                for url in out[i]:
-                    if 'original' in url:
-                        url = url.replace("original", "")
+            if "[]" in response:
+                pass
+            else:
+                for i in range(len(out)):
+                    for url in out[i]:
+                        if 'original' in url:
+                            url = url.replace("original", "")
                         
-                    else:
-                        self.urls.append(url)
+                        else:
+                            self.urls.append(url)
 
     def VirustotalEnums(self):
         base_url = "https://www.virustotal.com/vtapi/v2/domain/report?domain={domain}&apikey={apikey}"
