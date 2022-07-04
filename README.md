@@ -80,7 +80,7 @@ Usage
   - `--domain` Domain name to enumerate. This is the default argument
   - `--silent` Silent mode, Only print the result and ignore the error
   - `--no-subs` argument This only applies to the norx mode option
-  - `--output` TrEnum will automatically save the result to a file if the --output argument is not used
+  - `--output` **TrEnum** will automatically save the result to a file if the --output argument is not used
   
 **Example for subs option**
 
