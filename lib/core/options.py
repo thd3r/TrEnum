@@ -47,7 +47,7 @@ class OptionsArgs:
             "--no-subs",
             action="store_false",
             default=True,
-            help="Don\'t include subdomains. This only applies to the norx mode option"
+            help="Use this to exclude subdomains in searches. This only applies to the norx mode option"
         )
 
         return
