@@ -24,7 +24,7 @@ Installation
 **Requirement: python 3.7 or higher**
 
 ```
-https://github.com/thd3rBoy/TrEnum.git
+git clone https://github.com/thd3rBoy/TrEnum.git && python3 -m pip install -r requirements.txt
 ```
 
 Dependencies
