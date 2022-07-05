@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/github/license/thd3rBoy/TrEnum.svg)
 
 
-**TrEnum** is a python tool designed to enumerate subdomains of websites and fetches all url paths. This helps penetration testers and bug hunters to collect subdomains or retrieve all url paths for their targeted domains.
+**TrEnum** is a python tool designed to enumerate subdomains of websites and enumerate all path including subdomains. This helps penetration testers and bug hunters to collect subdomains or retrieve all url paths for their targeted domains.
 
 **TrEnum** is being actively developed by [@thd3rBoy](https://twitter.com/thd3rBoy)
 
