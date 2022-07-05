@@ -1,5 +1,4 @@
-# TrEnum - Enumerate subdomains & Fetches all url paths
-
+# TrEnum - Enumerate subdomains & Enumerate all path including subdomains
 
 ![Build](https://img.shields.io/badge/Built%20with-Python-Blue)
 ![License](https://img.shields.io/github/license/thd3rBoy/TrEnum.svg)
