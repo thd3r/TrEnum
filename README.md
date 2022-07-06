@@ -62,7 +62,7 @@ Options:
   -h, --help            show this help message and exit
   -v, --version         show program's version number and exit
   -m MODE, --options-mode MODE
-                        Mode options can be set by choice (ex: subs, norx)
+                        Mode options can be set by choice (e.g. subs, norx)
   -d DOMAIN, --domain DOMAIN
                         Domain name to enumerate
   -o OUTPUT, --output OUTPUT
