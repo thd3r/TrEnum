@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import multiprocessing
 import argparse
@@ -41,7 +41,7 @@ def print_banner():
   | | |  | |__| | | | |_| | | | | | |
   \_/_|  \____/_| |_|\__,_|_| |_| |_|
 
-                        {}{}@thd3rBoy
+                        {}{}@thd3r
 
 {}""".format(bcolors.BOLD, bcolors.OKBLUE, bcolors.END, bcolors.WARNING, bcolors.END)
 
