@@ -8,7 +8,7 @@ class OptionsArgs:
         self.parser = argparse.ArgumentParser(
             prog="TrEnum", 
             usage=f"{sys.argv[0]} [ -m options mode [default arguments] ] [ -d domain [default arguments] ] [ arguments ]", 
-            epilog="See github.com/thd3rBoy/TrEnum for more info"
+            epilog="See github.com/thd3r/TrEnum for more info"
         )
         self.parser._optionals.title = "Options"
         self.parser.add_argument(
