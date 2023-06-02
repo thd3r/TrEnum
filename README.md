@@ -6,7 +6,7 @@
 
 **TrEnum** is a python tool designed to enumerate subdomains of websites and enumerate all path including subdomains. This helps penetration testers and bug hunters to collect subdomains or retrieve all url paths for their targeted domains.
 
-**TrEnum** is being actively developed by [@thd3rBoy](https://twitter.com/thd3rBoy)
+**TrEnum** is being actively developed by [@thd3r](https://twitter.com/thd3r)
 
 
 Table of Contents
@@ -24,7 +24,7 @@ Installation
 **Requirement: python 3.7 or higher**
 
 ```
-git clone https://github.com/thd3rBoy/TrEnum.git && python3 -m pip install -r requirements.txt
+git clone https://github.com/thd3r/TrEnum.git && python3 -m pip install -r requirements.txt
 ```
 
 Dependencies
@@ -53,7 +53,7 @@ Options
   | | |  | |__| | | | |_| | | | | | |
   \_/_|  \____/_| |_|\__,_|_| |_| |_|
 
-                        @thd3rBoy
+                        @thd3r
 
 
 usage: TrEnum.py [ -m options mode [default arguments] ] [ -d domain [default arguments] ] [ arguments ]
@@ -70,7 +70,7 @@ Options:
   -s, --silent          Silent mode, Only print the result and ignore the error
   --no-subs             Use this to exclude subdomains in searches. This only applies to the norx mode option
 
-See github.com/thd3rBoy/TrEnum for more info
+See github.com/thd3r/TrEnum for more info
 ```
 
 Usage
@@ -123,7 +123,7 @@ Usage
 
 License
 ---------------
-Copyright (C) Thunder (thd3rBoy@github.io)
+Copyright (C) Thunder (thd3r@github.io)
 
 License: GNU General Public License, version 2
                                                                                     
